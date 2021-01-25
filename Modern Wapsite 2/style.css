@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('./images/download.jpg');
+    background-size: cover;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.main-header {
+    width: 100%;
+}
+
+.main-nav {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    width: 34%;
+}
+
+.routing-nav {
+    width: 60%;
+}
+
+.routing-nav ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul li {
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul li a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+.main-content {
+    display: grid;
+    place-items: center;
+    margin: 180px;
+
+}
+
+.main-content h1 {
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    font-size: 50px;
+}
+
+.buttonss {
+    width: 35%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.clickable {
+    font-size: 15px;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    color: rgb(97, 92, 92);
+}
+
+.clickable:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    
+}
+
+
+
