@@ -91,7 +91,7 @@ li a {
     width: 100%;
 }
 
-/* 3rd section */
+/* SECTION 3 */
 
 .who-are-we {
     padding: 25px;
@@ -203,6 +203,8 @@ li a {
     width: 47%;
     height: 52%;
 }
+
+/* SECTION 4 */
 
 .footer {
     display: flex;
