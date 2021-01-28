@@ -1,0 +1,461 @@
+.fronter {
+    color: black;
+    width: 70%;
+    position: absolute;
+    top: 20;
+    left: 10;
+}
+
+/* SECTION 1 */
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.upper-section {
+    padding: 1.56rem;
+}
+
+.main-header {
+    width: 100%;
+    height: 4.56rem;
+}
+
+.main-header__nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.logo {
+    width: 90%;
+    text-align: center;
+}
+
+.toggle-button__main {
+    margin: auto;
+    width: 10%;
+}
+
+.toggle-button {
+    margin: auto;
+    width: 3rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding-top: 0;
+    padding-bottom: 0;
+    vertical-align: middle;
+  }
+  
+  .toggle-button:focus {
+    outline: none;
+  }
+  
+  .toggle-button__bar {
+    width: 100%;
+    height: 0.2rem;
+    background: black;
+    display: block;
+    margin: 0.6rem 0;
+  }
+
+.logo p {
+    letter-spacing: 0.28rem;
+    font-size: 0.625rem;
+    text-align: center;
+    width: 100%;
+    color: #a6a3a3;
+    font-weight: bold;
+    margin-top: -0.5rem;
+
+}
+
+.logo-child {
+    width: 9.37rem;
+    height: 4.3rem;
+    padding-right: 14px;
+}
+
+.nav-link {
+    width: 40rem;
+    display: none;
+    justify-content: space-around;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+    width: 12%;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.icon a{
+    color: black;
+}
+
+.nav-link__child {
+    margin-top: 1.75rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.0rem;
+    background-color: #ffb547;
+    padding: 0.562rem 0.875rem;
+    border-radius: 0.25rem;
+}
+
+/* SECTION 2 */
+
+.title {
+    padding: 1.56rem;
+}
+
+.title h1{
+    font-weight: bold;
+    color: #666666;
+    text-align: center;
+    font-size: 0.87rem;
+    letter-spacing: 0.2rem;
+}
+
+.main-building {
+    text-align: center;
+    width: 100%;
+}
+
+.building-image {
+    width: 100%;
+}
+
+/* SECTION 3 */
+
+.who-are-we {
+    padding: 1.56rem;
+}
+
+.who-are-we h1{
+    font-size: 0.87rem;
+    letter-spacing: 0.2rem;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 2.25rem;
+}
+
+.contact-us {
+    position: fixed;
+    bottom: 0.625rem;
+    font-size: 1.00rem;
+    padding: 0.2rem 0.2em;
+    right: 1.26rem;
+    color: white;
+    padding: 0.562rem 0.875rem;
+    border-radius: 1.25rem;
+    background-color: #0066cd;
+    font-weight: bold;
+    border: none;
+}
+
+.people {
+    text-align: center;
+}
+
+.people img {
+    width: 100%;
+}
+
+.who-are-we p {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Section 4 */
+
+.services {
+    padding: 1.56rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.services h1 {
+    margin-bottom: 2.25rem;
+    font-size: 0.87rem;
+    letter-spacing: 0.2rem;
+    color: #666666;
+    text-align: center;
+    margin-top: 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-width: 293px;
+    width: 100%;
+}
+
+.cards > div {
+    border-radius: 1.25rem;
+    background-color: white;
+    border: 2px solid rgb(61, 60, 60);
+    width: 100%;
+}
+
+.card-1,.card-2,.card-3 {
+    display: flex;
+    padding-top: 2.35rem;
+    justify-content: space-between;
+    margin: 15px 0;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 3px 8px 1px #757474;
+}
+
+.card-1 img{
+    width: 80%;
+    height: 50%;
+}
+
+.card-1 p, .card-2 p, .card-3 p {
+    text-align: center;
+    margin-top: 1.25rem;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: text-top;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.625rem 1.25rem;
+    color: rgb(32, 32, 32);
+}
+
+.card-2 img {
+    width: 70%;
+    height: 50%;
+}
+
+.card-3 img{
+    width: 47%;
+    height: 52%;
+}
+
+/* SECTION 5 */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 1.87rem;
+    margin-top: 18.75rem;
+    height: 20rem;*/
+    font-size: 1.0rem;
+    margin-top: 7.75rem;
+    height: 9rem;
+    width: 100%;
+    background-color: rgb(133, 130, 130);
+}
+
+.footer-links a{
+    color: #e6d5d5;
+    text-decoration: none;
+}
+
+.footer-statement {
+    color: #e6d5d5;
+}
+
+/* media queries */
+
+/* big landscape tablets, laptops and tablets */
+/* @media (min-width : 1200px) {
+
+} */
+
+
+
+
+/* smartphones, Android phones, landscape iphone */
+@media (min-width : 600px) {
+    .title h1{
+        font-size: 1.87rem;
+        letter-spacing: 0.625rem;
+    }
+
+    .who-are-we h1{
+        font-size: 1.87rem; 
+        letter-spacing: 0.625rem;
+    }
+
+    .contact-us {
+        bottom: 0.625rem;
+        z-index: 100;
+        font-size: 1.25rem;
+    }
+
+    .services h1 {
+        font-size: 1.87rem; 
+        letter-spacing: 0.625rem; 
+        margin-bottom: 1.25rem;
+    }
+
+    .card-1 p, .card-2 p, .card-3 p {
+        text-align: center;
+        margin-top: 1.25rem;
+        font-size: 1.4rem;
+    }
+
+    .who-are-we p {
+        font-size: 1.5rem
+    }
+
+    .footer {
+        font-size: 1.3rem;
+    }
+}
+
+/* portrait tablets, e-readers kindle */
+@media (min-width : 800px){
+    .main-header__nav {
+        justify-content: flex-end;
+    }
+    .logo {
+        width: 25%;
+    }
+    .nav-link {
+        display: flex; 
+        width: 75%;
+    }
+
+    .nav-link__child {
+        width: 85%;
+    }
+
+    .icon {
+        width: 15%;
+    }
+    
+    li a {
+        font-size: 0.7rem;
+    }
+    .toggle-button {
+        display: none;
+    }
+}
+
+/* tablets, landscape , low resolution laptop and desktop */
+@media (min-width : 990px) {
+    .main-header__nav {
+        justify-content: space-around;
+    }
+
+    .nav-link {
+        display: flex; 
+        width: 54%;
+    }
+
+    .logo {
+        width: 16.5%;
+    }
+
+    .logo p {
+        width: 10.25rem;
+    }
+
+    .logo-child {
+        padding-right: 0px;
+    }
+
+    .title h1{
+        font-size: 1.87rem;
+        letter-spacing: 0.625rem;
+    }
+
+    .contact-us {
+        bottom: 0.625rem;
+        z-index: 100;
+        font-size: 1.25rem;
+    }
+
+    .who-are-we p {
+        font-size: 1.87rem; 
+        margin-bottom: 0;
+    }
+
+    .people img {
+        width: 50%;
+    }
+
+    .services {
+        display: block;
+        height: 31.25rem;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 5rem;
+    }
+
+    .services h1 {
+        font-size: 1.87rem;
+        letter-spacing: 0.625rem;
+        margin-bottom: 1.25rem;
+        margin-top: 0;
+    }
+
+    .cards {
+        display: flex;
+        height: 27.5rem;
+        margin-top: 1.87rem;
+        padding: 1.25rem;
+        justify-content: space-around;
+        position: relative;
+        flex-direction: row;
+    }
+
+    .cards > div {
+        width: 30%;
+    }
+
+    .card-1,.card-2,.card-3 {
+        display: flex;
+        justify-content: flex-start; 
+        padding-top: 3.75rem;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+
+    .card-1 p, .card-2 p, .card-3 p {
+        position: absolute;
+        top: 66%;
+        margin-top: 1.25rem;
+        font-size: 18px;
+        vertical-align: text-top;
+        padding: 0.625rem 1.25rem;
+    }
+
+    .footer {
+        font-size: 1.87rem;
+        margin-top: 18.75rem;
+        height: 20rem;
+    }
+
+}
+
+/* smartphones, portrait iphone, portrait 480 * 320 phones (Android) */
+/* @media (max-width : 480px) {
+
+}  */
