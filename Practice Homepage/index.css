@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.first-section {
+    background: linear-gradient(to left, #bc4e9c, #f80759);
+}
+
+header {
+    width: 100%;
+    height: 70px;
+}
+
+.main-nav {
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+    vertical-align: middle;
+}
+
+.img-container {
+    width: 30%;
+    text-align: center;
+    background-color: transparent;
+
+}
+
+.img-container img {
+    background-color: transparent;
+    width: 180px;
+    height: 59px;
+}
+
+.link-container {
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.link-container a {
+    margin: 0 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.first-section {
+    height: 100vh;
+}
+
+.second-image__child{
+    position: absolute;
+    top: 81px;
+    right: 64px;
+    width: 39%;
+}
+
+.basic-intro {
+    width: 82%;
+    margin: auto;
+    color: white;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 82%;
+    
+}
+
+.basic-intro h1 {
+    font-size: 78px;
+}
+
+.basic-intro h3 {
+    font-size: 36px;
+}
+
+.Get-App {
+    width: 145px;
+    margin-top: 20px;
+    margin-left: 122px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: #f80759;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Get-App:hover {
+    background-color: white;
+    color: grey;
+}
+
+.arrow {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    bottom: 20px;
+    left: 50%;
+}
+
+/* second section */
+
+.second-section {
+    background: black;
+    height: 100vh;
+}
+
+.headings {
+    text-align: center;
+    color: white;
+}

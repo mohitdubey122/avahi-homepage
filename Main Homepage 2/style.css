@@ -20,12 +20,13 @@ body {
 
 .main-header {
     width: 100%;
-    height: 4.56rem;
+    height: 87px;
 }
 
 .main-header__nav {
     display: flex;
     width: 100%;
+    align-items: center;
     justify-content: center;
 }
 
@@ -74,37 +75,34 @@ body {
 }
 
 .logo-child {
-    width: 9.37rem;
-    height: 4.3rem;
+    width: 214px;
+    height: 86px;
     padding-right: 14px;
 }
 
 .nav-link {
     width: 40rem;
     display: none;
-    justify-content: space-around;
-}
-
-.icon {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    vertical-align: middle;
-    width: 12%;
-    font-size: 25px;
+    justify-content: flex-end;
     margin-bottom: 10px;
 }
 
-.icon a{
-    color: black;
+.fas.fa-caret-down {
+    font-size: 21px;
 }
 
 .nav-link__child {
     margin-top: 1.75rem;
-    width: 80%;
+    width: 87%;
     display: flex;
-    justify-content: space-around;
     list-style: none;
+    justify-content: space-around;
+}
+
+.nav-link__company {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
 }
 
 li a {
@@ -113,10 +111,15 @@ li a {
     color: black;
     font-weight: bold;
     font-size: 1.0rem;
-    background-color: #ffb547;
-    padding: 0.562rem 0.875rem;
     border-radius: 0.25rem;
 }
+
+.pro-account, .Signuporlogin{
+    background-color: #ffb547;
+    padding: 0.562rem 0.875rem;
+}
+
+
 
 /* SECTION 2 */
 
@@ -135,6 +138,7 @@ li a {
 .main-building {
     text-align: center;
     width: 100%;
+    background: rgb(0, 0, 0, 0);
 }
 
 .building-image {
@@ -280,14 +284,6 @@ li a {
 
 /* media queries */
 
-/* big landscape tablets, laptops and tablets */
-/* @media (min-width : 1200px) {
-
-} */
-
-
-
-
 /* smartphones, Android phones, landscape iphone */
 @media (min-width : 600px) {
     .title h1{
@@ -337,11 +333,11 @@ li a {
     }
     .nav-link {
         display: flex; 
-        width: 75%;
+        width: 64%;
     }
 
     .nav-link__child {
-        width: 85%;
+        width: 87%;
     }
 
     .icon {
@@ -364,7 +360,7 @@ li a {
 
     .nav-link {
         display: flex; 
-        width: 54%;
+        width: 63%;
     }
 
     .logo {
@@ -377,6 +373,10 @@ li a {
 
     .logo-child {
         padding-right: 0px;
+    }
+
+    li a {
+        font-size: 1.125rem;
     }
 
     .title h1{
@@ -454,6 +454,22 @@ li a {
     }
 
 }
+
+/* big landscape tablets, laptops and tablets */
+ @media (min-width : 1100px) {
+    .logo {
+        width: 16.5%;
+    }
+
+    .logo p {
+        width: 14.25rem;
+        font-size: 1.0rem;
+    }
+
+    .nav-link {
+        width: 66%;
+    }
+} 
 
 /* smartphones, portrait iphone, portrait 480 * 320 phones (Android) */
 /* @media (max-width : 480px) {
